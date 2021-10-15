@@ -4,6 +4,8 @@ from vega_datasets import data
 
 st.title("Streamlit with Altair")
 
+print("streamlit version", st.__version__)
+
 cars = data.cars()
 iris = data.iris()
 
